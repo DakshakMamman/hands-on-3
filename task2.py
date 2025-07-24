@@ -10,3 +10,18 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary", "Fantasy"]
+
+genres.append("Drama")
+
+genres.remove("Fantasy")  
+genres.insert(3, "Fantasy")  
+
+total_genres = len(genres)
+
+second_genre = genres[1]
+second_last_genre = genres[-2]
+print("Total Genres:", total_genres)
+print("Second Genre:", second_genre)
+print("Second-to-Last Genre:", second_last_genre)
+
