@@ -10,3 +10,15 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+money = [1000, 1200, 800, 1500, 1100]
+
+total_money = sum(money)
+
+money[2] = 1000
+
+reversed_money = money[::-1]
+
+print(f"Total Amount Received So Far:, {total_money:.2f}")
+print("Fixed Money List:", money)
+print("Money List in Reverse Order:", reversed_money)
+
