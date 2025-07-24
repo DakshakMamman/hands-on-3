@@ -12,4 +12,13 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 """
 meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 meals.insert(4, "Miyan Taushe")
-print(meals)
+meals.remove(meals[1])
+meals.remove("Fura da Nono")
+meals.append("Fura da Nono")
+center_index = len(meals) // 2
+center_meal = meals[center_index]
+meals.sort()
+print("Final Meal List:", meals)
+print("Center Meal:", center_meal)
+
+
